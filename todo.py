@@ -5,7 +5,8 @@ def add_task(task):
 
 def view_tasks():
     if not tasks:
-        print("No tasks available")
+        print("Task list is empty")
+        return
     for task in tasks:
         print(task)
 
